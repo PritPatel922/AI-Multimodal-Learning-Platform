@@ -1,0 +1,1 @@
+# Demo seed data\n\nSeeding is executed by `backend/src/seed.js` and runs automatically when the backend starts.\n

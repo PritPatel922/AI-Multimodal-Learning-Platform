@@ -1,0 +1,16 @@
+{
+  "name": "ai-multimodal-learning-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-Based Multimodal Learning, Question Generation & Answer Evaluation Platform",
+  "scripts": {
+    "setup": "node generator.js --no-start",
+    "start": "node scripts/start-all.js",
+    "start:all": "node scripts/start-all.js",
+    "backend": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend run dev"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
